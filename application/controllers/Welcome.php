@@ -40,8 +40,8 @@ class Welcome extends Application
 		}
 
 		$this->data['display_tasks'] = $display_tasks;
-
 		$this->data['pagebody'] = 'homepage';
+		$this->data['pagetitle'] = 'To Do Manager - Group 11';
 		$this->render(); 
 	}
 
